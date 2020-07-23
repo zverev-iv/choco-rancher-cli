@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>rancher-cli</id>
+    <version>2.4.5</version>
+    <packageSourceUrl>https://github.com/zverev-iv/choco-rancher-cli</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>rancher-cli (Install)</title>
+    <authors>Rancher Labs</authors>
+    <projectUrl>https://rancher.com/docs/rancher/v2.x/en/cli/</projectUrl>
+    <iconUrl>https://github.com/zverev-iv/choco-rancher-cli/blob/master/rancher-cli/rancher-cli.png</iconUrl>
+    <copyright>2014-2020 Rancher Labs, Inc.</copyright>
+    <licenseUrl>https://cdn.statically.io/gh/rancher/cli/22d73e4f/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/rancher/cli</projectSourceUrl>
+    <docsUrl>https://rancher.com/docs/rancher/v2.x/en/cli/</docsUrl>
+    <tags>rancher-cli rancher kubernetes docker container containerd</tags>
+    <summary>Rancher Command Line Interface</summary>
+    <description>The Rancher CLI (Command Line Interface) is a unified tool that you can use to interact with Rancher. With this tool, you can operate Rancher using a command line rather than the GUI.</description>
+    <releaseNotes>https://github.com/rancher/cli/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools"/>
+  </files>
+</package>
