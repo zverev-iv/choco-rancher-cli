@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/rancher/cli/releases/download/v2.4.7/rancher-windows-386-v2.4.7.zip'
-$url64      = 'https://github.com/rancher/cli/releases/download/v2.4.7/rancher-windows-amd64-v2.4.7.zip'
+$url        = 'https://github.com/rancher/cli/releases/download/v2.4.14/rancher-windows-386-v2.4.14.zip'
+$url64      = 'https://github.com/rancher/cli/releases/download/v2.4.14/rancher-windows-amd64-v2.4.14.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -9,9 +9,9 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName  = 'rancher-cli*'
-  checksum      = '0a60da05d00129307e81af0cd4106c475359075039be0df6533e8e0ae070794c'
+  checksum      = '5f6582679ad7461852e780502301e2c90db8de7f9425ff8a985ca6757ed24c97'
   checksumType  = 'sha256'
-  checksum64    = '022105a37f5cf26e4939b52bfec7d4ff8d70a01d8e525a9bece9d5811f013730'
+  checksum64    = 'ddb822795fcad84762262cd49611a6dcb8539cf12a1e01d80040ab5d37f712e4'
   checksumType64= 'sha256'
 }
 
